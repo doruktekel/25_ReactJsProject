@@ -1,10 +1,12 @@
 import "./App.css";
 import Accordion from "./components/accordion";
+import GenerateColor from "./components/generate_color";
 
 function App() {
   return (
     <div className="App">
-      <Accordion />
+      {/* <Accordion /> */}
+      <GenerateColor />
     </div>
   );
 }
