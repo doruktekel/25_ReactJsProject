@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./style.css";
 
 const GenerateColor = () => {
   const [type, setType] = useState("hex");
